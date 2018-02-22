@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID: "/>
+        <TextView
+            android:id="@+id/item_id_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name: "/>
+        <TextView
+            android:id="@+id/item_name_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Qi"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email: "/>
+        <TextView
+            android:id="@+id/item_email_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="s*8@**.com"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Favorite TV Show: "/>
+        <TextView
+            android:id="@+id/item_ft_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Game"/>
+    </LinearLayout>
+
+</LinearLayout>
